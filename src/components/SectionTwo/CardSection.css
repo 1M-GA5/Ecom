@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+h2 {
+    font-family: 'Metal Mania', cursive;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+  }
+  
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+  
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+.music-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+
+.content-div{
+    margin: 30px;
+}
+
+
+.card-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.CardImg {
+    display: block;
+    margin: 0 auto;
+}
+
+.prod-details{
+   display: flex;
+   margin: 8px;
+   align-items: center;
+   justify-content: space-between; 
+}
+
+
+.btn-cart{
+    cursor: pointer;
+    padding: 8px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4%;
+    background: #56CCF2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.price{
+    font-weight: bold;
+}

@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import BrandName from './components/SectionOne/Brand';
+import Header from './components/SectionOne/Header';
+import FooterNavbar from './components/SectionThree/FooterNavbar';
+import CardSection from './components/SectionTwo/CardSection';
+import SeeCartButton from './components/SectionThree/SeeCartButton';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <BrandName />
+      <CardSection />
+      <SeeCartButton/>
+      <FooterNavbar />
+    </>
   );
 }
 

@@ -1,0 +1,30 @@
+.navbar-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #56CCF2;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    padding: 0 8%;
+  }
+  
+  .navbar__brand {
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+  }
+  
+  .navbar__icons {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+  }
+  
+  .navbar__icon {
+    margin-left: 40px;
+  }
+  
